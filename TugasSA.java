@@ -1,3 +1,5 @@
+/* Muhammad Akmal / 1301164337 / IF 40-03 */
+
 import java.lang.Math;
 
 public class TugasSA {
