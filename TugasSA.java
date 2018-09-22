@@ -1,5 +1,3 @@
-/* Muhammad Akmal / 1301164337 / IF 40-03 */
-
 import java.lang.Math;
 
 public class TugasSA {
@@ -37,6 +35,9 @@ public class TugasSA {
 		double c = (double) Math.exp(b);
 		double d = Math.sin(Math.toRadians(x1));
 		double e = Math.cos(Math.toRadians(x2));
+		//parameter Math.sin() & Math.cos() = an angle, in radians. src : https://www.tutorialspoint.com/java/lang/math_sin.htm
+		//in calculus / the function sin needs angle or degree for parameter and java needs radian for parameter
+		//so, the x1 & x2 (angle) is converted to radian with Math.toRadians() function
 		double i = c * d * e;
 		double f = Math.abs(i);
 		return (f * -1);
